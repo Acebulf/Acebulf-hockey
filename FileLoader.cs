@@ -87,7 +87,6 @@ namespace WindowsFormsApplication5
 
         public void launch()
         {
-            string swag = curDirName + @"\hockey.exe";
             System.Diagnostics.Process.Start(curDirName + @"\hockey.exe"); 
         }
     }
